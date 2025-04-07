@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Full-Page Embed</title>
+    <title>Miniproteins Metrics</title>
     <style>
-        /* Ensures the iframe and body occupy the full viewport */
+        /* Ensures no scrolling issues and full dynamic adaptation */
         html, body {
             margin: 0;
             padding: 0;
             height: 100%;
+            overflow: hidden; /* Disables scrollbars */
         }
         iframe {
             border: none;
-            width: 100%;
-            height: 100%;
+            width: 100vw; /* Uses the full viewport width */
+            height: 100vh; /* Uses the full viewport height */
         }
     </style>
 </head>
